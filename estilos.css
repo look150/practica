@@ -2,11 +2,12 @@ body > div {
     float: left;
  }
 
- .lista{
+ .navegacion{
+
      width: 150px;
-     height: 400px;
+     height: 600px;
      display: flex;
-     flex-direction: column-reverse;
+     flex-direction: column;
      justify-content: space-between;
      
 }
@@ -16,7 +17,7 @@ body > div {
      list-style-type: none;
  }
  .principal{
-        width: 900px;
+        width: 700px;
         height: 500px;
         display: flex;
         background-image:url(Main_Picture.png) ;
