@@ -2,30 +2,48 @@ body > div {
     float: left;
  }
 
- .navegacion{
+.navegacion{
 
-     width: 150px;
-     height: 600px;
+     width: 200px;
+     height: 650px;
      display: flex;
      flex-direction: column;
-     justify-content: space-between;
-     
+     justify-content: space-around;
+
 }
 
  li{
      transform: rotateZ(-90deg);
      list-style-type: none;
+
+
  }
+
  .principal{
-        width: 700px;
-        height: 500px;
+        width: 900px;
+        height: 700px;
         display: flex;
+        color: white;
+        flex-wrap: wrap ;
         background-image:url(Main_Picture.png) ;
-        background-size: 900px 100vh;
+        background-size: 900px 700px;
  }
+ 
  .barra{
      width: 300px;
-
-     
+ }
+.redes{
+    width: 200px;
+    height: 660px;
+    display: flex;
+    justify-self: flex-start;
+    align-items: flex-end;
+    justify-content: space-around;
 
  }
+
+
+ /* flex-direction: column-reverse;
+flex-wrap: wrap-reverse;
+align-content: space-between;
+justify-content: center */
