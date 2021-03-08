@@ -4,11 +4,15 @@ body > div {
 
 .navegacion{
 
-     width: 200px;
-     height: 650px;
+    
      display: flex;
      flex-direction: column;
      justify-content: space-around;
+     border-right: 2px solid black;
+     position: relative;
+     right: 2%;
+     width: 200px;
+     height: 100vh;
 
 }
 
@@ -31,6 +35,7 @@ body > div {
  
  .barra{
      width: 300px;
+     margin: 3%;
  }
 .redes{
     width: 200px;
@@ -39,11 +44,42 @@ body > div {
     justify-self: flex-start;
     align-items: flex-end;
     justify-content: space-around;
-
+    position: relative;
+    left: -38%;
+ }
+ .principal .header{
+    background-color: rosybrown;
+    height: 10%;
+    position: relative;
+    bottom: -20%;
+    left: 20%;
  }
 
+ .principal .titulo{
+    display: flex;
+    position: relative;
+    bottom: 140%;
+    font-size: 60px;
+    left: -20%;
+    color:white;
+ }
+ 
+ .principal .subtitulo{
+    display: flex;
+    position: relative;
+    bottom: 180%;
+    right: -55%;
+    color:white;
+ }
 
- /* flex-direction: column-reverse;
-flex-wrap: wrap-reverse;
-align-content: space-between;
-justify-content: center */
+ .principal .fecha{
+    display: flex;
+    position: relative;
+    bottom: -85%;
+    right: -20%;
+ }
+
+ .barra .fecha{
+     border-top: 1px solid black;
+ }
+
